@@ -44,10 +44,6 @@ body {
             #F3D7CA 4%    
         );
     }
-
-    .nav-section {
-        flex-direction: column;
-    }
 }
 
 /* Medium devices */
