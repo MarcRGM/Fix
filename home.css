@@ -1,12 +1,13 @@
 /* Home page */
 
 .first-section {
-    height: 110rem;
+    height: 115rem;
     display: flex;
     justify-content: space-evenly;
     align-content: center;
     align-items: center;
     flex-direction: column-reverse;
+    padding: 2.5rem;
 }
 
 .welcome {
@@ -20,7 +21,7 @@
 }
 
 .specify {
-    font-size: 4.2rem;
+    font-size: 4rem;
 }
 
 .logo-2 {
@@ -56,3 +57,158 @@
 }
 
 
+
+
+.second-section {
+    height: 105rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-top: 40px solid #F8E8EE;
+    border-bottom: 40px solid #F8E8EE;
+    padding: 2.5rem;
+}
+
+.question {
+    font-size: 4.2rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.reasons {
+    font-size: 2.5rem;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+.reasons b {
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    padding-right: 0.5rem;
+}
+
+.reasons li {
+    padding: 0.6rem;
+}
+
+
+
+
+.third-section {
+    height: 70rem;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2.5rem;
+}
+
+.specialty {
+    font-size: 3rem;
+    border-radius: 10px;
+    padding: 0.6rem;
+    border-top: 20px solid #E6A4B4;
+    border-bottom: 20px solid #E6A4B4;
+    border-right: 20px solid #F2BED1;
+    border-left: 20px solid #F2BED1;
+}
+
+.cupcake-images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.third-section img {
+    height: auto;
+    border-radius: 10px;
+}
+
+.specialty-info {
+    font-size: 2.5rem;
+    height: 25rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 15px solid #F2BED1;
+    border-right: 15px solid #F2BED1;
+    border-top: 15px solid #F9F5F6;
+    border-bottom: 15px solid #F9F5F6;
+    border-radius: 10px;
+}
+
+.specialty-info p {
+    text-align: justify;
+}
+
+
+
+
+
+.fourth-section {
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    border-top: 15px solid #F8E8EE;
+    border-bottom: 15px solid #F8E8EE;
+}
+
+.fourth-section span {
+    display: inline-block;
+    transition: transform 0.2s ease-out;
+}
+
+.fourth-section span:hover {
+    transform: translateY(-10px);
+}
+
+
+
+.fifth-section {
+    height: 100rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.customers-review {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.customer {
+    font-size: 3rem;
+    padding: 10px;
+    border-radius: 10px;
+    width: 28%;
+    margin-bottom: 5px;
+}
+
+.fa, .fa-star {
+    font-size: 3.5rem;
+}
+
+.checked {
+    color: #F3D7CA;
+}
+
+.stars {
+    display: flex;
+    flex-direction: row;
+}
+
+.review {
+    margin-top: 1%;
+    font-size: 2.5rem;
+}

@@ -6,6 +6,9 @@ body {
     font-family: 'Lato';
     width: 100%;
 
+    margin: 0;
+    padding: 0;
+
     background: repeating-linear-gradient(
             to right,
             #F5EEE6 -5%,  
